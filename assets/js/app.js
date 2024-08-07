@@ -1,4 +1,5 @@
-const url = 'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards';
+async function getCards () {
+   const url = 'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards';
 const options = {
 	method: 'GET',
 	headers: {
@@ -13,4 +14,6 @@ try {
 	console.log(result);
 } catch (error) {
 	console.error(error);
-}
+} 
+};
+getCards();
