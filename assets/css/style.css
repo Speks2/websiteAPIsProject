@@ -1,0 +1,12 @@
+body {
+  background: rgb(213, 213, 213);
+}
+body header {
+  background-color: red;
+}
+body main {
+  background-color: rgb(104, 104, 242);
+}
+body footer {
+  background-color: rgb(193, 27, 193);
+}
