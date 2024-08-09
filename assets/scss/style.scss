@@ -1,16 +1,17 @@
 body {
         font-family: fantasy;
-        background-color: #f0f0f0; /* Light background for the entire page */
+        background-color: #f0f0f0;
         margin: 0;
         padding: 0;
+        height: 100vh;
+        background-color: rgba(193, 27, 27, 0.886);
 
     header {
-        background-color: #2e2e2ed0; 
+        
         color: #fff;              
         padding: 40px 20px;        
         text-align: center;        
-        font-family: 'Arial', sans-serif;
-        border-bottom: 4px solid #ffcc00; 
+        border-bottom: 4px solid #eab208; 
     
         .header-content {
             max-width: 1200px;
@@ -29,31 +30,40 @@ body {
             font-size: 1.5em;    
             margin-bottom: 0;
             font-weight: 300;    
-            color: #ccc;        
+            color: #fbfbfb;        
         }
     }
     
     
     main {
-        background: linear-gradient(135deg, #fad65edc, #b2ad6fdf); 
-        max-width: 100%; 
-        margin: 20px auto; 
-        padding: 20px; 
-        border-radius: 10px; 
+        background-image: url("../images/dfhfhfhffh.jpg");
+        // background: linear-gradient(135deg, #fad65edc, #b2ad6fdf); 
+        max-width: 100%;  
+        padding: 20px;  
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-        font-family: 'Arial', sans-serif; 
+       
+        p {
+            border-radius: 1rem;
+            background-color: #eab208; 
+            color: rgba(250, 0, 0, 0.986);
+            font-size: 1.19rem;
+            font-style: italic;
+            margin-right: 0;
+
+        }
     }
     
     footer {
-            background-color: rgb(193, 27, 27);
             color: #fff;            
             padding: 20px;           
             text-align: center;     
             font-family: 'Arial', sans-serif;
+             
         
             h3 {
                 margin-bottom: 15px;
                 font-size: 1.5em;
+                color: rgb(255, 255, 255);
             }
         
             ul {
@@ -88,10 +98,10 @@ body {
     }
     
     .card {
-        background-color: #f9f9f9;
+        background-color:  rgb(251, 64, 64);
         border: 1px solid #ddd;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         cursor: pointer;
         flex: 1 1 calc(33% - 40px); 
         margin: 10px;
@@ -101,11 +111,10 @@ body {
         transition: transform 0.3s, max-height 0.3s ease;
         overflow: hidden;
         box-sizing: border-box; 
-    
+        
         &:hover {
             transform: scale(1.1);
-            background-color: rgb(154, 240, 240);
-            
+            background-color: rgba(240, 235, 235, 0.971);
         }
     }
     
@@ -123,18 +132,17 @@ body {
         text-overflow: ellipsis;
         white-space: nowrap;
         max-height: 0;
-        transition: max-height 0.3s ease;
-        overflow: auto;
+        transition: max-height 0.4s ease;
+        overflow: hidden;
     }
     
     .card.expanded .card-content {
         white-space: normal;
-        max-height: 1000px; 
+        max-height: 10rem; 
+        overflow-y: visible;
+        padding: 10px; /* Added padding for content readability */
     }
-
-    
-     
-    
+  
 }
 
 
