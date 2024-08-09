@@ -69,3 +69,37 @@ document.addEventListener("DOMContentLoaded", () => {
         loadingMessage.innerText = "Failed to load information. Please try again later.";
     });
 });
+
+// audio 
+function toggleAudio() {
+    var audio = document.getElementById('myAudio');
+    var button = document.getElementById('audioButton');
+    
+    if (audio.paused) {
+        audio.play();
+        button.textContent = 'Pause';
+    } else {
+        audio.pause();
+        button.textContent = 'Play';
+    }
+}
+
+//music off and on 
+function toggleAudio() {
+    const audio = document.getElementById('myAudio');
+    const button = document.getElementById('audioButton');
+    const musicOn = document.getElementById('musicOn');
+    const musicOff = document.getElementById('musicOff');
+    
+    if (audio.paused) {
+        audio.play();
+        button.textContent = 'Pause';
+        musicOn.classList.remove('hidden');
+        musicOff.classList.add('hidden');
+    } else {
+        audio.pause();
+        button.textContent = 'Play';
+        musicOn.classList.add('hidden');
+        musicOff.classList.remove('hidden');
+    }
+}

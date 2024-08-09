@@ -6,6 +6,20 @@ body {
   height: 100vh;
   background-color: rgba(193, 27, 27, 0.8862745098);
 }
+body #audioButton {
+  background-color: rgba(255, 162, 0, 0.893);
+  height: 2rem;
+  width: 5vw;
+  color: white;
+  border-radius: 2rem;
+}
+body #audioButton:hover {
+  background-color: rgb(111, 36, 3);
+  cursor: pointer;
+}
+body .hidden {
+  display: none;
+}
 body header {
   color: #fff;
   padding: 40px 20px;

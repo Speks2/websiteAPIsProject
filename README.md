@@ -1,3 +1,6 @@
 # websiteAPIsProject
 hearthstone api custom website
-Hearthstone characters have their own linkedIn profiles. Comedy website project
+An information website for Hearthstone nerds with their own API, learn whats new and what already is, in Hearthstone.
+
+
+WELCOME TO Hearthstone: The Latest Patch!
