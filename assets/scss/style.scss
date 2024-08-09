@@ -4,13 +4,13 @@ body {
         margin: 0;
         padding: 0;
         height: 100vh;
-        background-color: rgba(193, 27, 27, 0.886);
+        background-color: #c11b1be2;
 
     header {
-        
         color: #fff;              
         padding: 40px 20px;        
-        text-align: center;        
+        text-align: center;      
+        // border-top: 4px solid #eab208;  
         border-bottom: 4px solid #eab208; 
     
         .header-content {
@@ -58,6 +58,7 @@ body {
             padding: 20px;           
             text-align: center;     
             font-family: 'Arial', sans-serif;
+            border-top: 4px solid #eab208;
              
         
             h3 {
@@ -98,8 +99,8 @@ body {
     }
     
     .card {
-        background-color:  rgb(251, 64, 64);
-        border: 1px solid #ddd;
+        background-color:  #ec7310d6;
+        border: 2px solid #ddd;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         cursor: pointer;
