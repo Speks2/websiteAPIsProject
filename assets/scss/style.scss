@@ -37,7 +37,9 @@ body {
     
     main {
         background-image: url("../images/dfhfhfhffh.jpg");
-        // background: linear-gradient(135deg, #fad65edc, #b2ad6fdf); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
         max-width: 100%;  
         padding: 20px;  
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 

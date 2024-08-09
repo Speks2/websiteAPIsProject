@@ -31,6 +31,9 @@ body header h2 {
 }
 body main {
   background-image: url("../images/dfhfhfhffh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   max-width: 100%;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
